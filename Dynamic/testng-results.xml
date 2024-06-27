@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-06T12:56:06 IST" name="Dynamic Test Suite" finished-at="2024-06-06T12:57:27 IST" duration-ms="81708">
+    <groups>
+    </groups>
+    <test started-at="2024-06-06T12:56:06 IST" name="com.superapp.tests.VerifyComparePlanFunctionalityFromQuickLinks" finished-at="2024-06-06T12:57:27 IST" duration-ms="81708">
+      <class name="com.superapp.tests.VerifyComparePlanFunctionalityFromQuickLinks">
+        <test-method is-config="true" signature="startServer()[pri:0, instance:com.superapp.tests.VerifyComparePlanFunctionalityFromQuickLinks@2237bada]" started-at="2024-06-06T12:56:05 IST" name="startServer" finished-at="2024-06-06T12:56:06 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startServer -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.superapp.tests.VerifyComparePlanFunctionalityFromQuickLinks@2237bada]" started-at="2024-06-06T12:56:06 IST" name="openApplication" finished-at="2024-06-06T12:56:22 IST" duration-ms="16025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="comparePlanFunctionality(java.util.HashMap)[pri:0, instance:com.superapp.tests.VerifyComparePlanFunctionalityFromQuickLinks@2237bada]" started-at="2024-06-06T12:56:22 IST" name="comparePlanFunctionality" data-provider="Datadriven" finished-at="2024-06-06T12:57:27 IST" duration-ms="65628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SSO ID=RKHRY1015, Password=Allow#1234}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comparePlanFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.superapp.tests.VerifyComparePlanFunctionalityFromQuickLinks@2237bada]" started-at="2024-06-06T12:57:27 IST" name="tearDown" finished-at="2024-06-06T12:57:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.superapp.tests.VerifyComparePlanFunctionalityFromQuickLinks -->
+    </test> <!-- com.superapp.tests.VerifyComparePlanFunctionalityFromQuickLinks -->
+  </suite> <!-- Dynamic Test Suite -->
+</testng-results>
